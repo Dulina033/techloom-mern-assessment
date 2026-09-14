@@ -1,0 +1,23 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; margin: 0; background: #c2d4f8; color: #1f2430; }
+.container { max-width: 1000px; margin: 0 auto; padding: 24px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; }
+.card { background: #fff; border-radius: 10px; padding: 16px; margin-bottom: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+.row { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
+button { cursor: pointer; border: none; border-radius: 6px; padding: 8px 14px; background: #16825d; color: #fff; font-weight: 600; }
+button.secondary { background: #e5e7eb; color: #1f2430; }
+button.danger { background: #d64545; }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+input, select { padding: 8px; border-radius: 6px; border: 1px solid #d1d5db; }
+h1 { font-size: 22px; }
+.badge { padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 700; }
+.badge.Pending { background: #e5e7eb; }
+.badge.Reserved { background: #fde68a; }
+.badge.Paid { background: #bbf7d0; }
+.badge.Cancelled { background: #e5e7eb; }
+.badge.Expired { background: #fecaca; }
+.badge.Failed { background: #fecaca; }
+.tabs { display: flex; gap: 8px; margin-bottom: 16px; }
+.tabs button { background: #e5e7eb; color: #1f2430; }
+.tabs button.active { background: #16825d; color: #fff; }
+.filters { display: flex; gap: 8px; margin-bottom: 14px; flex-wrap: wrap; }
