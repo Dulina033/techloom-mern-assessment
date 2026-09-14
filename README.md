@@ -1,6 +1,6 @@
 # Techloom.ai MERN Assessment — Dulina033
 
-Repository: https://github.com/Dulina033/<your-repo-name>
+Repository: https://github.com/Dulina033/techloom-mern-assessment
 
 This repo contains two full MERN-stack tasks, each with its own `server` (Express + MongoDB/Mongoose) and `client` (React + Vite):
 
@@ -94,15 +94,7 @@ Open http://localhost:5174. Enter any username (no real auth — this is a demo 
 
 ---
 
-## Environment variables
 
-Both `task-01/server/.env` and `task-02/server/.env` (copy from `.env.example`):
-
-```
-PORT=5001                       # 5002 for task-02
-MONGO_URI=<your MongoDB connection string>
-RESERVATION_TTL_MINUTES=5
-```
 
 ---
 
@@ -118,7 +110,7 @@ RESERVATION_TTL_MINUTES=5
 
 ```bash
 git clone https://github.com/Dulina033/<your-repo-name>.git
-cd <your-repo-name>
+cd techloom-mern-assessment
 code .
 ```
 
