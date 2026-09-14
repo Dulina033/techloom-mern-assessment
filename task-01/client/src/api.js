@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const api = axios.create({ baseURL: '/api' });
+const api = axios.create({
+  baseURL: `${import.meta.env.VITE_API_URL}/api`,
+});
 
 export const getProducts = () => api.get('/products').then((r) => r.data);
 export const createProduct = (data) => api.post('/products', data).then((r) => r.data);
